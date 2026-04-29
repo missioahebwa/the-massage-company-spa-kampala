@@ -12,7 +12,7 @@ const categories = [
         duration: '90/120 mins',
         price: '150K',
         icon: <Waves className="text-gold" size={32} />,
-        image: 'https://goodspaguide--live.s3.amazonaws.com/_AUTOxAUTO_fit_center-center_100_none/868603/Swedish-Massage_2023-12-11-162956_uhoh.webp'
+        image: 'https://www.vivadayspa.com/wp-content/uploads/2019/08/Viva_Day_Spa_10_GA_170411_638-1_2000x635.jpg'
       },
       {
         title: 'Deep Tissue Therapy',
@@ -20,7 +20,7 @@ const categories = [
         duration: '90/120 mins',
         price: '150K',
         icon: <Thermometer className="text-gold" size={32} />,
-        image: 'https://images.squarespace-cdn.com/content/v1/6447eeb38baf0c31deed937f/1722295849903-M9NOJ65FQ8FGGSP0Y8WL/Screenshot+2024-07-29+192752.png'
+        image: 'https://assets.zeel.com/media/locations/inset/generic/location-right-4.jpg'
       },
       {
         title: 'Signature | Aroma',
@@ -81,7 +81,7 @@ const categories = [
         duration: '120 mins',
         price: '650K',
         icon: <Sparkles className="text-gold" size={32} />,
-        image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQdz7ZhPVACPiWhlIQIY-5yGHGU4w82ImB17w&s'
+        image: 'https://cosmosmassage.pl/wp-content/uploads/2025/10/Lingam-masaz-masazystki-w-salonie-Cosmos-scaled.webp'
       },
       {
         title: '6 Hands Xclusive (Elite)',
