@@ -58,7 +58,7 @@ export default function HomeService() {
           >
             <div className="relative z-10 rounded-[2.5rem] overflow-hidden">
                <img 
-                 src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=800" 
+                 src="https://images.squarespace-cdn.com/content/v1/63f6a16e248d532d821ab307/d6f51d1d-cdc5-4ba5-af6e-b8488d6ea3be/image-asset.jpg" 
                  alt="Mobile Spa Setup"
                  className="w-full aspect-[4/5] object-cover grayscale-[30%]"
                  referrerPolicy="no-referrer"

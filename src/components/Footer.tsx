@@ -79,13 +79,21 @@ export default function Footer() {
         </div>
       </div>
 
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-12 border-t border-white/5 flex flex-col md:flex-row justify-between items-center gap-6">
         <p className="text-white/20 text-[9px] uppercase tracking-[0.3em] font-bold">
           © 2026 The Massage Company & Spa Kampala.
         </p>
         <p className="text-white/10 text-[9px] uppercase tracking-[0.3em] font-bold">
           More Of The Exclusive Treats.
         </p>
+        <a 
+          href="https://wa.me/+256747412427" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="text-white/20 hover:text-gold text-[9px] uppercase tracking-[0.3em] font-bold transition-colors"
+        >
+          Designed by ML MEDIA AGENCY
+        </a>
       </div>
     </footer>
   );

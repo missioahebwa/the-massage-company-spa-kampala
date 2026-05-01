@@ -8,7 +8,7 @@ export default function Hero() {
       <div className="absolute inset-0 z-0">
         <img
           src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&fit=crop&q=80&w=2070"
-          alt="Luxury Spa Treatment"
+          alt="The Massage Company & Spa Kampala - Premium Wellness and Relaxation"
           className="w-full h-full object-cover"
           referrerPolicy="no-referrer"
         />
@@ -28,6 +28,7 @@ export default function Hero() {
             </div>
             
             <h1 className="text-6xl md:text-8xl lg:text-[10rem] font-serif text-white leading-[0.85] mb-8 tracking-[-0.03em]">
+              <span className="sr-only">The Massage Company & Spa Kampala - </span>
               More Of The <br />
               <span className="italic text-gold text-gold-gradient">Exclusive</span> Treats
             </h1>
