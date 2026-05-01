@@ -10,6 +10,7 @@ export default function Navbar() {
   const navLinks = [
     { name: 'Home', href: '#' },
     { name: 'Packages', href: '#packages' },
+    { name: 'Couples', href: '#couples' },
     { name: 'Services', href: '#services' },
     { name: 'Pricing', href: '#pricing' },
     { name: 'Mobile Spas', href: '#mobile-spas' },
