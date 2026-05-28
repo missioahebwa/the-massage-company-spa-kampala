@@ -3,6 +3,7 @@ import Hero from '../components/Hero';
 import Services from '../components/Services';
 import Packages from '../components/Packages';
 import CouplesPackages from '../components/CouplesPackages';
+import MobileWellness from '../components/MobileWellness';
 import PriceList from '../components/PriceList';
 import HomeService from '../components/HomeService';
 import Reviews from '../components/Reviews';
@@ -67,6 +68,7 @@ export default function HomePage() {
         <Packages />
         <CouplesPackages />
         <Services />
+        <MobileWellness />
         <PriceList />
         <HomeService />
         <Reviews />
