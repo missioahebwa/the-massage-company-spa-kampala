@@ -44,7 +44,7 @@ const categories = [
         duration: '90/120 mins',
         price: '200K',
         icon: <Sparkles className="text-gold" size={32} />,
-        image: 'https://sp-ao.shortpixel.ai/client/to_auto,q_lossy,ret_img,w_600,h_400/https://www.czech-massage.cz/wp-content/uploads/2022/10/tantra-massage.jpg'
+        image: 'https://www.spamassage.cz/wp-content/uploads/2022/11/2595825e-d2cd-4d00-b56b-ef0ddb9c06fb.jpg'
       },
       {
         title: 'Xclusive | Full Package',

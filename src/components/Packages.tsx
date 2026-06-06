@@ -77,7 +77,7 @@ const packageCategories = [
         duration: '150 mins',
         price: '900K',
         icon: <Sparkles className="text-gold" size={32} />,
-        image: 'https://luxslondon.com/wp-content/uploads/2023/07/sensual-massage-london.jpg'
+        image: 'https://www.bodylinemassage.com.au/wp-content/uploads/2025/04/erotic-full-body-massage1-optimized.jpg'
       }
     ]
   }

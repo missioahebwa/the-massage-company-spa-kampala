@@ -1,6 +1,9 @@
 import { motion } from 'motion/react';
 import { Sparkles, PhoneCall, ShieldCheck, Heart } from 'lucide-react';
 
+const facialMassageImg = 'https://i.postimg.cc/hjvbVqD4/Whats-App-Image-2026-05-31-at-9-22-40-AM-(1).jpg';
+const woodTherapyImg = 'https://i.postimg.cc/sDq94bxh/Whats-App-Image-2026-05-04-at-10-01-11.jpg';
+
 const therapistImages = [
   {
     url: 'https://i.postimg.cc/hjvbVqD4/Whats-App-Image-2026-05-31-at-9-22-40-AM-(1).jpg',
@@ -146,120 +149,40 @@ export default function MobileWellness() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 lg:gap-8 items-center">
           
-          {/* LEFT COLUMN: Collage of overlapping therapist photos exactly like the screenshot */}
-          <div className="lg:col-span-6 relative h-[500px] sm:h-[650px] w-full flex items-center justify-center">
+          {/* LEFT COLUMN: Beautiful, minimalist staggered ovals representing serene spa sessions */}
+          <div className="lg:col-span-6 relative w-full flex items-center justify-center">
             
-            {/* Base Container representing the circular/organic positions */}
-            <div className="relative w-full h-full max-w-lg mx-auto">
+            {/* Staggered double oval container matching the screenshot view precisely */}
+            <div className="relative w-full max-w-md sm:max-w-xl mx-auto flex items-start justify-center gap-4 sm:gap-8 pt-8 pb-16">
               
-              {/* Shape 1: Top circle */}
+              {/* Left Oval: Facial Massage with Flower */}
               <motion.div
-                initial={{ opacity: 0, scale: 0.8, y: -20 }}
+                initial={{ opacity: 0, scale: 0.9, y: -20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.8 }}
-                className="absolute top-0 left-[28%] w-[110px] h-[110px] sm:w-[150px] sm:h-[150px] rounded-full overflow-hidden border-4 border-charcoal shadow-[0_20px_50px_rgba(0,0,0,0.8)] z-20"
+                className="w-1/2 aspect-[1/1.38] rounded-full overflow-hidden border-4 border-[#121110] shadow-[0_25px_60px_rgba(0,0,0,0.8)] z-10"
               >
                 <img
-                  src={therapistImages[0].url}
-                  alt={therapistImages[0].name}
-                  className="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition-transform duration-500 hover:scale-105"
+                  src={facialMassageImg}
+                  alt="Serene Facial Massage with Plumeria Flower"
+                  className="w-full h-full object-cover grayscale-[10%] hover:grayscale-0 transition-transform duration-700 hover:scale-105"
                   referrerPolicy="no-referrer"
                 />
               </motion.div>
 
-              {/* Shape 2: Left tall squircle */}
+              {/* Right Oval: Wood Therapy */}
               <motion.div
-                initial={{ opacity: 0, scale: 0.8, x: -30 }}
-                whileInView={{ opacity: 1, scale: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: 0.1 }}
-                className="absolute top-[12%] left-[8%] w-[120px] h-[180px] sm:w-[170px] sm:h-[240px] rounded-[3.5rem] overflow-hidden border-4 border-charcoal shadow-[0_25px_60px_rgba(0,0,0,0.8)] z-10"
-              >
-                <img
-                  src={therapistImages[1].url}
-                  alt={therapistImages[1].name}
-                  className="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition-transform duration-500 hover:scale-105"
-                  referrerPolicy="no-referrer"
-                />
-              </motion.div>
-
-              {/* Shape 3: Center squircle */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8, y: 20 }}
+                initial={{ opacity: 0, scale: 0.9, y: 20 }}
                 whileInView={{ opacity: 1, scale: 1, y: 0 }}
                 viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: 0.2 }}
-                className="absolute top-[32%] left-[34%] w-[130px] h-[100px] sm:w-[180px] sm:h-[130px] rounded-[2.5rem] overflow-hidden border-4 border-charcoal shadow-[0_20px_50px_rgba(0,0,0,0.8)] z-30"
+                transition={{ duration: 0.8, delay: 0.15 }}
+                className="w-1/2 aspect-[1/1.38] rounded-full overflow-hidden border-4 border-[#121110] shadow-[0_25px_60px_rgba(0,0,0,0.8)] z-20 mt-12 sm:mt-16"
               >
                 <img
-                  src={therapistImages[2].url}
-                  alt={therapistImages[2].name}
-                  className="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition-transform duration-500 hover:scale-105"
-                  referrerPolicy="no-referrer"
-                />
-              </motion.div>
-
-              {/* Shape 4: Far left small circle */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8, x: -20 }}
-                whileInView={{ opacity: 1, scale: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: 0.3 }}
-                className="absolute top-[48%] left-0 w-[70px] h-[70px] sm:w-[90px] sm:h-[90px] rounded-full overflow-hidden border-4 border-charcoal shadow-[0_15px_35px_rgba(0,0,0,0.8)] z-20"
-              >
-                <img
-                  src={therapistImages[3].url}
-                  alt={therapistImages[3].name}
-                  className="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition-transform duration-500 hover:scale-105"
-                  referrerPolicy="no-referrer"
-                />
-              </motion.div>
-
-              {/* Shape 5: Middle right squircle */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8, x: 30 }}
-                whileInView={{ opacity: 1, scale: 1, x: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.8, delay: 0.4 }}
-                className="absolute top-[22%] right-[8%] w-[100px] h-[100px] sm:w-[135px] sm:h-[135px] rounded-[2.5rem] overflow-hidden border-3 border-charcoal shadow-[0_20px_45px_rgba(0,0,0,0.8)] z-20"
-              >
-                <img
-                  src={therapistImages[4].url}
-                  alt={therapistImages[4].name}
-                  className="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition-transform duration-500 hover:scale-105"
-                  referrerPolicy="no-referrer"
-                />
-              </motion.div>
-
-              {/* Shape 6: Large central bottom capsule */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8, y: 40 }}
-                whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 1, delay: 0.5 }}
-                className="absolute bottom-[4%] right-[10%] w-[140px] h-[210px] sm:w-[200px] sm:h-[300px] rounded-[4.5rem] overflow-hidden border-4 border-charcoal shadow-[0_30px_70px_rgba(0,0,0,0.8)] z-10"
-              >
-                <img
-                  src={therapistImages[5].url}
-                  alt={therapistImages[5].name}
-                  className="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition-transform duration-500 hover:scale-105"
-                  referrerPolicy="no-referrer"
-                />
-              </motion.div>
-
-              {/* Shape 7: Bottom left wide/tall capsule */}
-              <motion.div
-                initial={{ opacity: 0, scale: 0.8, y: 30 }}
-                whileInView={{ opacity: 1, scale: 1, y: 0 }}
-                viewport={{ once: true }}
-                transition={{ duration: 0.9, delay: 0.6 }}
-                className="absolute bottom-0 left-[20%] w-[110px] h-[140px] sm:w-[155px] sm:h-[200px] rounded-[3.5rem] overflow-hidden border-4 border-charcoal shadow-[0_25px_50px_rgba(0,0,0,0.8)] z-20"
-              >
-                <img
-                  src={therapistImages[6].url}
-                  alt={therapistImages[6].name}
-                  className="w-full h-full object-cover grayscale-[15%] hover:grayscale-0 transition-transform duration-500 hover:scale-105"
+                  src={woodTherapyImg}
+                  alt="Elite Wood Therapy (Maderotherapy) Session"
+                  className="w-full h-full object-cover grayscale-[10%] hover:grayscale-0 transition-transform duration-700 hover:scale-105"
                   referrerPolicy="no-referrer"
                 />
               </motion.div>
