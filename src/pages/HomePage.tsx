@@ -18,7 +18,7 @@ export default function HomePage() {
     "name": "The Massage Company & Spa Kampala",
     "description": "Exclusive spa and massage services in Kampala, Entebbe, and across Uganda. Open 24/7 with mobile home, hotel, and apartment services.",
     "url": "https://themassagecompany.ug",
-    "telephone": "+256762331620",
+    "telephone": "+256794677890",
     "address": {
       "@type": "PostalAddress",
       "streetAddress": "Dr. Kiremerwa Rd, Bukoto, Behind Kabira Country Club",
