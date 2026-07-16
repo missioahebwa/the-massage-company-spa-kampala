@@ -46,7 +46,7 @@ export default function Navbar() {
               </a>
             ))}
             <a
-              href="https://wa.me/256794677890?text=Hello%20The%20Massage%20Company%20%26%20Spa%20Kampala%2C%20I%20would%20like%20to%20book%20an%20exclusive%20treat."
+              href="https://wa.me/256762331620?text=Hello%20The%20Massage%20Company%20%26%20Spa%20Kampala%2C%20I%20would%20like%20to%20book%20an%20exclusive%20treat."
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-2.5 rounded-full text-xs font-bold tracking-widest uppercase border border-gold text-gold hover:bg-gold hover:text-black transition-all duration-300"
@@ -86,7 +86,7 @@ export default function Navbar() {
             </a>
           ))}
           <a
-            href="https://wa.me/256794677890?text=Hello%20The%20Massage%20Company%20%26%20Spa%20Kampala%2C%20I%20would%20like%20to%20book%20an%20exclusive%20treat."
+            href="https://wa.me/256762331620?text=Hello%20The%20Massage%20Company%20%26%20Spa%20Kampala%2C%20I%20would%20like%20to%20book%20an%20exclusive%20treat."
             target="_blank"
             rel="noopener noreferrer"
             className="block text-center border border-gold text-gold px-6 py-4 rounded-full text-xs font-bold tracking-widest uppercase"

@@ -40,7 +40,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-6">
               <a 
-                href="https://wa.me/256794677890?text=Hello%20The%20Massage%20Company%20%26%20Spa%20Kampala%2C%20I%20would%20like%20to%20book%20an%20exclusive%20treat."
+                href="https://wa.me/256762331620?text=Hello%20The%20Massage%20Company%20%26%20Spa%20Kampala%2C%20I%20would%20like%20to%20book%20an%20exclusive%20treat."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="group relative flex items-center justify-center gap-3 bg-white text-black px-12 py-5 rounded-full text-xs font-bold tracking-widest uppercase transition-all hover:scale-105 active:scale-95"

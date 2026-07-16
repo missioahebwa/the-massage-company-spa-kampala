@@ -165,7 +165,7 @@ export default function Services() {
                         <span className="text-gold font-serif text-lg tracking-tight">{service.price}</span>
                       </div>
                       <a 
-                        href={`https://wa.me/256794677890?text=Hello%20The%20Massage%20Company%20%26%20Spa%20Kampala%2C%20I%20would%20like%20to%20book%20the%20${encodeURIComponent(service.title)}%20treat.`}
+                        href={`https://wa.me/256762331620?text=Hello%20The%20Massage%20Company%20%26%20Spa%20Kampala%2C%20I%20would%20like%20to%20book%20the%20${encodeURIComponent(service.title)}%20treat.`}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="block text-center border border-white/10 hover:border-gold/50 text-[10px] text-white/40 hover:text-gold font-bold uppercase tracking-[0.2em] py-3 rounded-full transition-all"

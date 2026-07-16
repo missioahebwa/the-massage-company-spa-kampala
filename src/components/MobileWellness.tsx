@@ -253,7 +253,7 @@ export default function MobileWellness() {
               transition={{ delay: 0.4 }}
             >
               <a 
-                href="https://wa.me/256794677890?text=Hello%20The%20Massage%20Company%20%26%20Spa%20Kampala%2C%20I%20would%20like%20to%20book%20a%20Premium%20Mobile%20Wellness%20session."
+                href="https://wa.me/256762331620?text=Hello%20The%20Massage%20Company%20%26%20Spa%20Kampala%2C%20I%20would%20like%20to%20book%20a%20Premium%20Mobile%20Wellness%20session."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-3 bg-gold hover:bg-gold-light text-charcoal py-4 px-10 rounded-full text-xs font-bold uppercase tracking-[0.2em] transition-all duration-300 shadow-xl"

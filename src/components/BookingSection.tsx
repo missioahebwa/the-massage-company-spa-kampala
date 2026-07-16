@@ -23,14 +23,14 @@ export default function BookingSection() {
             
             <div className="flex flex-col sm:flex-row items-center justify-center gap-8">
               <a 
-                href="tel:+256794677890"
+                href="tel:+256762331620"
                 className="w-full sm:w-auto flex items-center justify-center gap-4 bg-white text-black px-12 py-5 rounded-full text-xs font-bold tracking-[0.2em] uppercase hover:scale-105 transition-all"
               >
                 <Phone size={18} />
                 Call To Book
               </a>
               <a 
-                href="https://wa.me/256794677890?text=Hello%20The%20Massage%20Company%20%26%20Spa%20Kampala%2C%20I%20would%20like%20to%20book%20an%20exclusive%20treat."
+                href="https://wa.me/256762331620?text=Hello%20The%20Massage%20Company%20%26%20Spa%20Kampala%2C%20I%20would%20like%20to%20book%20an%20exclusive%20treat."
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto flex items-center justify-center gap-4 border border-white/10 glass text-white px-12 py-5 rounded-full text-xs font-bold tracking-[0.2em] uppercase hover:bg-white/5 transition-all"
